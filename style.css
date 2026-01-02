@@ -27,7 +27,6 @@
     font-size: 4rem;
     margin-bottom: 30px;
     color: #F55606;
-
 }
 
 .hero-content p{
@@ -52,7 +51,7 @@
 }
 
 .Features-section{
-    padding: 60px 0px;
+    padding: 40px 0px;
     background-color: #be35ae;
 }
 
@@ -180,3 +179,72 @@
 .social-icons a:hover{
     color: green;
 }
+
+.footer-contnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1028px) {
+    .hero-content h1{
+        font-size: 2.4rem;
+    }
+}
+
+.hero-content{
+    max-width: 80%;
+    padding: 0 15px;
+}
+
+.hero-content p{
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.hero-content{
+    max-width: 75%;
+}
+
+.hero-content p{
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+.hero-content{
+    max-width: 90%;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.hero-content{
+    max-width: 100%;
+    padding: 0 14px;
+}
+
+.hero-content h1{
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .footer-contnt{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer p{
+        max-width: 100%;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .social-icons{
+        display: flex;
+        gap: 20px;
+    }
+}
+
